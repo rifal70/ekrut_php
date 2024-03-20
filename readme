@@ -1,0 +1,7 @@
+# docker build -t ekrut_php_images .  
+# docker run --name postgres3krut --network my-network -d -p 5432:5432 -e POSTGRES_HOST_AUTH_METHOD=trust -e POSTGRES_DB=postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres1 postgres:latest postgres -c listen_addresses='*'
+# docker run --name ekrut_php --network my-network -v C:/Rifal/ekrut:/var/www/html -p 8000:80 -d ekrut_php_images
+# docker composer require league/oauth2-google
+
+# https://github.com/PHPMailer/PHPMailer/wiki/Using-Gmail-with-XOAUTH2
+# https://developers.google.com/oauthplayground.

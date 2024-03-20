@@ -1,0 +1,8 @@
+{
+    "name": "ekrut/php",
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "ext-pdo": "*",
+        "league/oauth2-google": "^4.0"
+    }
+}
